@@ -287,7 +287,7 @@ int main() {
     outFile << "C = 2 * c * sin(180 - beta) =              " << 2 * c * sin(rd / 2) << " сторона равнобедренного треугольника с углом бета\n";
     outFile << std::endl;
 
-    std::cout << boost::format("\nC = 2 * c * sin(180 - 360 / pow(2, 333)) = %s\n") % (2 * c * sin(rd / 2));
+    std::cout << boost::format("\nC = 2 * c * sin(180 - beta) = %s\n") % (2 * c * sin(rd / 2));
 
     outFile << "я здесь..";
     
