@@ -290,7 +290,9 @@ int main() {
     std::cout << boost::format("\nC = 2 * c * sin(180 - beta) = %s\n") % (2 * c * sin(rd / 2));
 
     outFile << "я здесь..";
-    
+	
+    outFile.close();
+
     return 2;
 
 }
